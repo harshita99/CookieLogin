@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/colorPrimary"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ImageActivity">
+
+    <ImageView
+        android:id="@+id/container"
+        android:layout_width="300sp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="50sp">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:hint="Enter URL"
+        android:textColorHint="#ffffff"
+        android:gravity="center"
+        android:background="@drawable/cute"
+        android:layout_gravity="center"
+        android:inputType="textUri"
+        android:textColor="#ffffff"
+        />
+
+
+    <LinearLayout
+        android:layout_width="300sp"
+        android:layout_marginTop="30sp"
+        android:layout_height="50sp"
+        android:background="#FFC107"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
